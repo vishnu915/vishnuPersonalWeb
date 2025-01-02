@@ -238,8 +238,3 @@ section{
         margin-top: 15px;
     }
 }
-.icon {
-    width: 100px; /* Adjust icon size */
-    height: auto;
-    border-radius: 50%; /* Makes it circular */
-}
