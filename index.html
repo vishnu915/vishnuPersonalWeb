@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - vishnu45</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/8ab7ead315.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="icon" type="image/x-icon" href="https://github.com/vishnu915/vishnuPersonalWeb/blob/main/WhatsApp%20Image%202025-02-09%20at%2006.17.36_7389e7c7.jpg?raw=true">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://github.com/vishnu915/vishnuPersonalWeb/blob/main/WhatsApp%20Image%202025-02-09%20at%2006.17.36_7389e7c7.jpg?raw=true" class="logo">
+                <ul id="sidemenu">
+                    <li style="--i:1"><a href="#header">𝗛𝗼𝗺𝗲</a></li>
+                    <li style="--i:2"><a href="#about">𝐀𝐛𝐨𝐮𝐭</a></li>
+                    <li style="--i:3"><a href="#services">𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐞𝐬</a></li>
+                    <li style="--i:4"><a href="#portfolio">𝐏𝐨𝐫𝐭𝐟𝐨𝐥𝐢𝐨</a></li>
+                    <li style="--i:5"><a href="#contact">𝐂𝐨𝐧𝐭𝐚𝐜𝐭</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <div>
+                    <p>UG Undergraduate</p>
+                    <h1>Hi, I am <span class="multitext"></span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -----------------about--------------- -->
+
+    <div id="about" class="hidden">
+        <div class="container">
+            <h1 class="sub-title">About me</h1>
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://scontent.fhyd14-1.fna.fbcdn.net/v/t39.30808-6/476113597_969803551744143_2731528906066497114_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=14gGcqbNyP4Q7kNvgEioHQQ&_nc_oc=AdhnBYVlKajhiqTcafVv6jUECElN-LlUT0ctNK-ukfUV9lqLECnjBDmiiTHtOAksCKdaM_ASSrwnBksWPbaY1OxH&_nc_zt=23&_nc_ht=scontent.fhyd14-1.fna&_nc_gid=AwVQwSM3vwCa2rAdkAWnSKU&oh=00_AYDTn_rpie790ZcKTtsdEWj2Sg8e542RpOEfPQhlWIWXCw&oe=67AE372E" alt="image of me">
+                </div>
+                <div class="about-col-2">
+                    <p> 
+                        I am Repana Vishnu Vardhan 
+                              I am pursuing 2nd(BCA)Bachelor of Computer Applications in Aditya Dgreee College(BKK). And I am currently seeking opportunities in the software industry. I have solid foundation in HTML, CSS, JavaScript. React. Java. Spring. SpringBoot. SQL & I am a Full Stack Developer.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span class="tab-headers">Programming Languages</span><br>C, Java, Python, c++</li>
+                                <li><span class="tab-headers">Web Technologies</span><br>HTML, CSS, JavaScript (Angular),Bootstrap</li>
+                            <li><span class="tab-headers">Tools</span><br>Visual Studio, Vs Code, Postman, eclipse,git &github </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span class="tab-headers">2022 - Expected 2026</span><br>sri venkateswara university(SVU TIRUPATI
+                                ) -2nd BCA(bacholor of Computer Apllications) (Hons)in Aditya degree college(BKK) <br>
+                                 <li><span class="tab-headers">2020 - 2022</span>sunku usha gowthami college<br>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------services--------------- -->
+
+    <div id="services" class="hidden">
+        <div class="container">
+            <h1 class="sub-title">Technologies</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Front-end</h2>
+                    <p>
+                        Creating user-friendly web interfaces with HTML, CSS, JavaScript and Bootstrap. Let's bring your ideas to life!
+                    </p>
+                    <!-- <a href="#contact">Learn more</a> -->
+                </div>
+                <div>
+           
+                    <h2>Back-end</h2>
+                    <p>
+                      Core Java, Python, C, C++,Rest API, MySQL, SQL, DBMS.
+                    </p>
+                    <!-- <a href="#contact">Learn more</a> -->
+                </div>
+                <div>
+                    
+                    <h2>Frameworks</h2>
+                    <p>
+                        Spring and Spring Boot, Django, Hybernate, JDBC, Angular js, Reactj s.
+                    </p>
+                    <!-- <a href="#contact">Learn more</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -----------------portfolio--------------- -->
+
+    <div id="portfolio" class="hidden">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://github.com/vishnu915/java-beginner-s-project/blob/main/Screenshot%202025-02-10%20070925.png?raw=true">
+                    <div class="layer">
+                        <h3>Java banking Application</h3>
+                        <p>
+                            Created a java banking apllication as work with amount deposit and withdraw amount,check Balance, Transection history and other.
+                        </p>
+                        <a href="https://github.com/vishnu915/java-beginner-s-project/blob/456af36dd0c95784c2b2ffb3d4b7c77a6d5b3c80/Simple%20banking%20System" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://github.com/vishnu915/java-beginner-s-project/blob/main/Screenshot%202025-02-10%20071644.png?raw=true">
+                    <div class="layer">
+                        <h3>online Reservation system using java
+                        </h3>
+                        <p>
+                            Developing an online Reservation system using core java,resrvation of peoples,view resrvations and exit resrvations. 
+
+                        </p>
+                        <a href="https://github.com/vishnu915/java-beginner-s-project/blob/456af36dd0c95784c2b2ffb3d4b7c77a6d5b3c80/online%20Reservation%20system%20%20using%20java"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://github.com/vishnu915/vishnuPersonalWeb/blob/main/IMG-20250209-WA0012%5B1%5D.jpg?raw=true">
+                    <div class="layer">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>
+                            Created a dynamic portfolio website to showcase skills, education, and tech projects. Connect with like-minded individuals and share a passion for technology.
+                        </p>
+                        <a href="https://github.com/vishnu915/vishnuPersonalWeb/blob/128e430d7cb1e3d6e1ce4f851162b4d578dca895/index.html" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://github.com/vishnu915/frontend-projects/blob/main/result.png?raw=true">
+                    <div class="layer">
+                        <h3>>Calculator</h3>
+                        <p>Utilizing HTML, CSS, and JavaScript, I've developed a Basic Calculator.
+                        </p>
+                        <a href="https://github.com/vishnu915/frontend-projects.git" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://github.com/vishnu915/To-List-Application/blob/main/Screenshot%202025-02-10%20073828.png?raw=true">
+                    <div class="layer">
+                        <h3>To-List-Application</h3>
+                        <p>
+                            Dynamic dashboard using HTML, CSS, JavaScript. This Start by listing the features you want in your application. Here are some common ones:Add a task,Mark a task as completed,Delete a task, Edit a task
+                        </p>
+                        <a href="https://github.com/vishnu915/To-List-Application.git" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- This is button for see more projects in github. -->
+            <!-- <a href="https://github.com/manojtharindu11" class="btn" target="_blank">See more</a> -->
+        </div>
+    </div>
+
+
+    <!-- -----------------contact--------------- -->
+
+    <div id="contact" class="hidden">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> repanavishnuvardhan67664@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+919182177915</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/repanavishnu1?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/vishnu45R45?t=4whvJsRbkYdCM5V9i0Mg1A&s=08"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/repana-vishnu-vardhan-26795b316?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BTrYB%2FRvzQOWEJul02hlJnA%3D%3D"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/vishnu915"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="C:\Users\Windows10\Desktop\RESUME  (1) (2).docxv (2).pdf" class="btn btn2" download>Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>Copyright &copy; vishnu vardhan R.</p>
+        </div>
+    </div>
+
+    <a href="#" class="to-top" id="to-top"><i class="fa-solid fa-arrow-up"></i></a>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function openTab(tabName) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabName).classList.add("active-tab")
+        }
+
+        // mobile screen navigation
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openMenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closeMenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwqp8reWuv-g4dXeqiGKyUJ-naRTaiZl7ydHZa1s-cDtAvXLFB_5xM1EG_ssDZ2sU7XqQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function() {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <script>
+        var typingEffect = new Typed(".multitext", {
+            strings: ['<span>vishnu</span><br>vardhan', '<span>full</span><br>stack developer'],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1500
+        })
+    </script>
+
+    <script>
+        const toTop = document.querySelector(".to-top");
+        window.addEventListener("scroll", () => {
+            if (window.pageYOffset > 100) {
+                toTop.classList.add("active");
+            } else {
+                toTop.classList.remove("active");
+            }
+        })
+    </script>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("show");
+                } else {
+                    entry.target.classList.remove("show");
+                }
+            });
+        });
+
+        var hiddenElements = document.querySelectorAll(".hidden");
+
+        hiddenElements.forEach((el) => observer.observe(el));
+    </script>
+
+</body>
+
+</html>
